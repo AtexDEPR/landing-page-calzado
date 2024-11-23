@@ -17,3 +17,84 @@ nav ul{
   list-style-type: none;
   padding: 2vw;
 }
+
+/* Sebas */
+.containerBody {
+  position: relative;
+  display: flex;
+  /* border: 2px solid black; */
+  height: 80vh;
+  top: 14vh;
+  align-items: center;
+}
+
+article {
+  position: relative;
+  width: 78vw;
+  height: 55vh;
+  /* top: 5vw; */
+  left: 13vw;
+  background-color: transparent;
+  margin-left: 3vw;  
+}
+
+
+.Bga{
+font-family: "Docallisme";
+font-size: clamp(30px, 3vw, 5vw);  
+position: relative;
+margin-left: 30vw;
+width: 100vw;
+top: -3vw;
+color: white;
+}
+.mainContainer {
+display: flex;
+flex-direction: column;
+
+}
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+cursor: pointer;
+
+}
+
+.card {
+margin-left: 2vw;
+width: 30%;
+top: -1.5vw;
+}
+
+
+
+/* Estilo de la imagen */
+.card-image img {
+object-fit: cover; /* La imagen se ajusta para llenar el contenedor sin distorsionarse */
+}
+
+/* Estilo del contenido de la tarjeta */
+.card-content {
+padding: 15px;  /* Espaciado interno */
+font-family: 'Arial', sans-serif; /* Tipografía personalizada */
+}
+
+.Bga {
+width: 30%;
+}
+
+.contact {
+display: flex;
+justify-content: flex-start;
+position: relative;
+right: 2vw;
+font-size: clamp(30px, 3vw, 2vw);
+width: 98vw;
+margin-top: 1vw;
+}
+
+.contacto {
+color: white;
+margin-left: 4vw;
+}
