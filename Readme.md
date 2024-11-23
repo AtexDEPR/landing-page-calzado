@@ -70,3 +70,32 @@ git pull
 
 ---
 ## COMANDOS SEBASTIAN
+- mkdir web-shoez 
+- cd web-shoez
+- git config --global  --user.name (nombre de usuario)
+- git config --global  --user.email (correo)
+- git init 
+- git clone (link del repositorio)
+- cd landing-page-calzado
+- git pull
+-  git branch Sebas
+- git checkout Sebas
+- git add .
+- git status
+- git commit -m "Agregando imagenes"
+- git push origin Sebas
+-  git merge main (Para actualizar las modificaciones que se han agregado en la sub rama) 
+- git branch desarrollo 
+- git checkout desarrollo
+- git add .
+- git status
+- git commit -m "Agregando css e imagenes"
+- git push 
+- git push --set-upstream origin desarrollo
+##  ARCHIVOS MODIFICADOS Y AGREGADOS POR SEBASTIAN:
+- Agregar y subir imágenes.
+-  Agregar en el body un catalogo de calzados.
+- En la lista se agrego cuatro imágenes sobre los calzados, dentro del contenedor de Cards-img.
+- En el CSS se hizo una serie de cambios a las clases de cards, con animación cuando pasa el pulsor del mouse.
+- Centrar el titulo "Zapatos"
+- Se agrego botones en los contenedores de los catalogos de calzado
