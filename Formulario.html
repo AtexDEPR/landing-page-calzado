@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html class="theme-dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CultuVivo</title>
+    <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+  <header>
+    <nav role="navigation" aria-label="main navigation">
+      <ul class="is-flex is-justify-content-center is-align-items-center is-flex-direction-rows"> 
+        <li><a href="./index.html" ><i class="fab fa-facebook-square"></i> Inicio</a></li>
+        <li><a href="#"><i class="fab fa-twitter-square"></i> Catalogo</a></li>
+        <li><a href="#"><i class="fab fa-instagram-square"></i> Nosotros</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+    <section class="section">
+        <div class="container">
+            <br><br>
+            <h1 class="title is-2 has-text-centered">COMPRAR</h1>
+            <br>
+            <p class=" has-text-centered">Has escogido 1 articulo el cual tiene un costo de $50 <br>
+              <a href="">Seguir comprando</a>
+            </p>
+            <div class="tabs is-centered">
+            </div>
+            <div class="box">
+                <form>
+                    <div class="field">
+                        <label class="label">Nombres y apellidos</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Ingrese el nombre del evento" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Correo elecrtronico</label>
+                        <div class="control">
+                            <input class="input" type="email" placeholder="Ingrese el correo electronico" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Diereccion</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Ingrese la ubicación del evento" required>
+                        </div>
+                    </div>
+                     <br>
+                    <div class="field has-text-centered">
+                        <label class="label">Metodo de pago</label>
+                        <section>
+                          <label class="checkbox">
+                              <input type="radio" name="payment-method" required>
+                              PayPal
+                          </label>
+                          <label class="checkbox">
+                              <input type="radio" name="payment-method" required>
+                              Tarjeta de crédito
+                          </label>
+                          <label class="checkbox">
+                              <input type="radio" name="payment-method" required>
+                              Transferencia bancaria
+                          </label>
+                          
+                       </section>
+                    </div>
+
+                    <br>
+                    
+
+                    <div class="field" >
+                        <div class="control">
+                            <button id="Pagar" type="submit" class="button is-primary is-fullwidth has-background-dark ">Pagar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+</body>
+
+</html>
