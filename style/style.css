@@ -1,0 +1,19 @@
+header{
+  background-color: rgb(29, 27, 27);
+  color: white;
+}
+
+nav{
+  text-decoration: none;
+  color: white;
+}
+nav a{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 2vw;
+}
